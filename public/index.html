@@ -7,12 +7,11 @@
     </head>
     <body>
         <header>
-            <!-- ¿¿¿son dos secciones o va todo adentro del header ??? -->
             <section>
-                <a href="/">UNLuPAW Medical Group</a>
-                <button>Iniciar sesion</button>
+                <h1><a href="/">UNLuPAW Medical Group</a></h1>
+                <a href="/iniciar-sesion">Iniciar sesion</a>
             </section>
-            <section>
+            <nav>
                 <!-- aca iria el icono del menu -->
                 <ul>
                     <li><a href='/institucional'>Institucional</a></li>
@@ -22,7 +21,7 @@
                     <li><a href='/especialidades'>Especialidades</a></li>
                     <li><a href='/profesionales'>Profesionales</a></li>
                 </ul>
-            </section>
+            </nav>
         </header>
         <main>
             <section>
@@ -34,24 +33,25 @@
                 </p>
             </section>
             <section>
-                <header><h1>Nuestra institucion</h1></header>
-                <img src="/src/placeholder.img" alt="imagen de la institucion 1"/>
-                <img src="/src/placeholder.img" alt="imagen de la institucion 2"/>
-                <img src="/src/placeholder.img" alt="imagen de la institucion 3"/>
-                <button>Ver mas</button>
+                <header><h2>Nuestra institucion</h2></header>
+                <ul>
+                    <li><img src="/src/placeholder.img" alt="imagen de la institucion 1"/></li>
+                    <li><img src="/src/placeholder.img" alt="imagen de la institucion 2"/></li>
+                    <li><img src="/src/placeholder.img" alt="imagen de la institucion 3"/></li>
+                </ul>            
+                <a href='/institucional'>Ver mas</a>
             </section>
             <section>
-                <section>
+                <article>
                     <header><h2>¿Como llegar?</h2></header>
                     <!-- aca va el maps -->
                     <address>
                         <p>Av. siempreviva 123,</p>
                         <p>Pilar, CP 6400</p>
                     </address>
-                </section>
-                <section>
+                </article>
+                <article>
                     <h2>Telefonos</h2>
-                    <!-- ¿¿¿ esto es una lista ??? -->
                     <p>Emergencias: <a href="tel:08109999646">0810 999 9646</a></p>
                     <p>Consultas administrativas: <a href="tel:08109999647">0810
                             999 9647</a></p>
@@ -59,34 +59,37 @@
                             9648</a></p>
                     <a
                         href='https://api.whatsapp.com/send?phone=+5492323536666'>WPP</a>
-                </section>
+                    </article>
             </section>
             <section>
                 <header><h2>Obras sociales</h2></header>
-                <!-- ¿¿¿ esto es una lista ??? -->
-                <i> <a href="/">a</a> </i>
-                <i> <a href="/">b</a> </i>
-                <i> <a href="/">c</a> </i>
-                <i> <a href="/">d</a> </i>
-                <i> <a href="/">e</a> </i>
-                <i> <a href="/">f</a> </i>
-                <i> <a href="/">g</a> </i>
-                <i> <a href="/">h</a> </i>
+                <ul>
+                    <li> <a href="/">a</a> </li>
+                    <li> <a href="/">b</a> </li>
+                    <li> <a href="/">c</a> </li>
+                    <li> <a href="/">d</a> </li>
+                    <li> <a href="/">e</a> </li>
+                    <li> <a href="/">f</a> </li>
+                    <li> <a href="/">g</a> </li>
+                    <li> <a href="/">h</a> </li>
+                </ul>
             </section>
         </main>
         <footer>
             <section>
                 <!-- imagen del QR con los derechos y bla bla -->
                 <img src='/src/placeholder.img' alt='qr legales del sitio'/>
-                <p>Todos los derechos reservados</p>
-                <p>Terminos y condiciones</p>
+                <small>
+                    <p>Todos los derechos reservados</p>
+                    <p>Terminos y condiciones</p>
+                </small>
                 <address><p>Av. J M. Torres 1500 - Pilar - Buenos Aires</p></address>
             </section>
             <section>
-                <i><a href="https://www.facebook.com">fb</a></i>
-                <i><a href="https://www.instagram.com">ig</a></i>
-                <i><a href="https://www.linkedin.com">in</a></i>
-                <i><a href="https://www.twitter.com">tw</a></i>
+                <li><a href="https://www.facebook.com">fb</a></li>S
+                <li><a href="https://www.instagram.com">ig</a></li>
+                <li><a href="https://www.linkedin.com">in</a></li>
+                <li><a href="https://www.twitter.com">tw</a></li>
             </section>
         </footer>
     </body>
