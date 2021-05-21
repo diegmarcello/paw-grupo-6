@@ -31,11 +31,13 @@
                 <label for="buscar-especialidad">Buscar especialidad</label>
                 <input
                     list="especialidades"
+                    type='text'
                     id='buscar-especialidad'
                     name='buscar-especialidad'
                     placeholder='Alergia'
                     tabindex="1"
                     autofocus
+                    multiple <!-- no funciona, solo funciona con input de tipo email -->
                     />
                 <datalist id='especialidades'>
                     <option value="Alergia e inmunología">
@@ -47,12 +49,13 @@
                     name='buscar-profesional' 
                     placeholder='Martin garcia' 
                     type="text" 
+                    tabindex="2"
                 />
             </form>
             <ul>
                 <li>
                     <article>
-                        <img src="/src/placeholder.img" alt="foto
+                        <img src="/src/placeholder.png" alt="foto
                             profesional">
                         <h3>Joaquín Martínez</h3>
                         <p>Alergia e inmunología</p>
@@ -61,7 +64,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="/src/placeholder.img" alt="foto
+                        <img src="/src/placeholder.png" alt="foto
                             profesional">
                         <h3>Estéban Giménez</h3>
                         <p>Alergia e inmunología</p>
@@ -70,7 +73,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="/src/placeholder.img" alt="foto
+                        <img src="/src/placeholder.png" alt="foto
                             profesional">
                         <h3>Armando Puentes</h3>
                         <p>Cirugía de cabeza y cuello</p>
@@ -79,7 +82,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="/src/placeholder.img" alt="foto
+                        <img src="/src/placeholder.png" alt="foto
                             profesional">
                         <h3>Claudia Mur</h3>
                         <p>cirugía de cabeza y cuello</p>
@@ -88,7 +91,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="/src/placeholder.img" alt="foto
+                        <img src="/src/placeholder.png" alt="foto
                             profesional">
                         <h3>Joaquín Pablo Casas Segovia</h3>
                         <p>Cardiología adultos</p>
@@ -101,7 +104,7 @@
         <footer>
             <section>
                 <!-- imagen del QR con los derechos y bla bla -->
-                <img src='/src/placeholder.img' alt='qr legales del
+                <img src='/src/placeholder.png' alt='qr legales del
                     sitio'/>
                 <small>
                     <p>Todos los derechos reservados</p>
