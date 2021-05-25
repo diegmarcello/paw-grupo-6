@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='es-AR'>
+    <head>
+        <title>UNLuPAW Medical Group</title>
+        <meta lang='es-AR' charset="utf-8" />
+        <base target="_self" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">UNLuPAW Medical Group</a></h1>
+        </header>
+        <form>
+            <fieldset>
+                <label for='nombre'>Nombre</label>
+                <input
+                    name='nombre'
+                    id='nombre'
+                    type='text'
+                    autofocus
+                    required
+                    tabindex="1"
+                    placeholder='Juan'
+                    />
+                <label for='apellido'>Apellido</label>
+                <input
+                    name='apellido'
+                    id='apellido'
+                    type='text'
+                    required
+                    tabindex="2"
+                    placeholder='Perez'
+                    />
+            </fieldset>
+            <fieldset>
+                <label for='documento'>Documento</label>
+                <input
+                    name='documento'
+                    id='documento'
+                    type='text'
+                    required
+                    tabindex="3"
+                    placeholder='38000000'
+                    />
+                <label for='email'>Email</label>
+                <input
+                    name='email'
+                    id='email'
+                    type='email'
+                    required
+                    tabindex="4"
+                    placeholder='nombre@ejemplo.com'
+                    />
+            </fieldset>
+            <fieldset>
+                <label for='password'>Contraseña</label>
+                <input
+                    name='password'
+                    id='password'
+                    type='password'
+                    required
+                    tabindex="5"
+                    placeholder='********'
+                    />
+                <label for='password2'>Contraseña</label>
+                <input
+                    name='password2'
+                    id='password2'
+                    type='password'
+                    required
+                    tabindex="6"
+                    placeholder='********'
+                    />
+            </fieldset>
+
+            <a href='/'>Volver a inicio</a>
+            <input type='submit' value='Crear cuenta' tabindex="7"/>
+        </form>
+    </body>
+</html>
