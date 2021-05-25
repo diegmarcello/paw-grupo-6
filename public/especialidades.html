@@ -29,6 +29,7 @@
             </header>
             <form action="POST">
                 <label for="buscar-especialidad">Buscar especialidad</label>
+                <!-- prop multiple no funciona, solo funciona con input de tipo email -->
                 <input
                     list="especialidades"
                     type='text'
@@ -37,8 +38,8 @@
                     placeholder='Alergia'
                     tabindex="1"
                     autofocus
-                    multiple <!-- no funciona, solo funciona con input de tipo email -->
-                    />
+                    multiple 
+                />
                 <datalist id='especialidades'>
                     <option value="Alergia e inmunología">
                     <option value="cirugía cabeza y cuello">
