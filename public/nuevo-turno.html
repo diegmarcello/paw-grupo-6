@@ -33,79 +33,79 @@
                 <h2>Nuevo turno</h2>
             </header>
             <form action="">
-                <label for="nombre">Nombre</label>
-                <input
-                    autofocus
-                    required
-                    tabindex='1'
-                    type="text"
-                    id='nombre'
-                    name='nombre'
-                    placeholder='Juan Manuel'
-                >
-                <label for="apellido">Apellido</label>
-                <input
-                    required
-                    tabindex='2'
-                    type="text"
-                    id='apellido'
-                    name='apellido'
-                    placeholder='Pérez'
-                >
-                <label for="email">Email</label>
-                <input
-                    required
-                    tabindex='3'
-                    type="email"
-                    id='email'
-                    name='email'
-                    placeholder='ejemplo@mail.com'
-                >
-                <label for="telefono">Teléfono celular</label>
-                <input 
-                    required 
-                    tabindex='4' 
-                    type="tel"
-                    id='telefono'
-                    name='telefono'
-                    placeholder='+54 9 2323 536699'
-                >
-                <label for="fecha_nacimiento">Fecha de nacimiento</label>
-                <input 
-                    required 
-                    tabindex='5' 
-                    type="date" 
-                    id='fecha_nacimiento'
-                    name='fecha_nacimiento'
-                    placeholder='DD/MM/AAAA'
-                >
-                <label for="edad">Edad</label>
-                <input 
-                    required 
-                    tabindex='6' 
-                    type="number" 
-                    id='edad' 
-                    name='edad'
-                    placeholder='25'
-                >
-                <label for="Fecha_turno">Fecha del turno</label>
-                <input 
-                    required 
-                    tabindex='7' 
-                    type="date" 
-                    id='Fecha_turno'
-                    name='Fecha_turno'
-                    placeholder='DD/MM/AAAA'
-                    >
-                <label for="hora_turno">Hora del turno</label>
-                <input 
-                    required 
-                    tabindex='8' 
-                    type="time" 
-                    id='hora_turno'
-                    name='hora_turno'
-                    placeholder='09:30'
-                >
+                <fieldset>
+                    <label for="nombre">Nombre</label>
+                    <input
+                        autofocus
+                        required
+                        tabindex='1'
+                        type="text"
+                        id='nombre'
+                        name='nombre'
+                        placeholder='Juan Manuel'>
+                    <label for="apellido">Apellido</label>
+                    <input
+                        required
+                        tabindex='2'
+                        type="text"
+                        id='apellido'
+                        name='apellido'
+                        placeholder='Pérez'>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input
+                        required
+                        tabindex='3'
+                        type="email"
+                        id='email'
+                        name='email'
+                        placeholder='ejemplo@mail.com'>
+                    <label for="telefono">Teléfono celular</label>
+                    <input
+                        required
+                        tabindex='4'
+                        type="tel"
+                        id='telefono'
+                        name='telefono'
+                        placeholder='+54 9 2323 536699'>
+                </fieldset>
+                <fieldset>
+                    <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                    <input
+                        required
+                        tabindex='5'
+                        type="date"
+                        id='fecha_nacimiento'
+                        name='fecha_nacimiento'
+                        placeholder='DD/MM/AAAA'>
+                    <label for="edad">Edad</label>
+                    <input
+                        required
+                        tabindex='6'
+                        type="number"
+                        id='edad'
+                        name='edad'
+                        placeholder='25'>
+                </fieldset>
+                <fieldset>
+                    <label for="Fecha_turno">Fecha del turno</label>
+                    <input
+                        required
+                        tabindex='7'
+                        type="date"
+                        id='Fecha_turno'
+                        name='Fecha_turno'
+                        placeholder='DD/MM/AAAA'>
+                    <label for="hora_turno">Hora del turno</label>
+                    <input
+                        required
+                        tabindex='8'
+                        type="time"
+                        id='hora_turno'
+                        name='hora_turno'
+                        placeholder='09:30'>
+                </fieldset>
                 <input type="reset" value='Limpiar'>
                 <input type="submit" value='Solicitar'>
             </form>
