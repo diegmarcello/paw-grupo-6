@@ -1,0 +1,90 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    --light-primary: #0eacd8;
+    --primary: #003b70;
+    --text-primary: white;
+    --secondary: #4f2c7f;
+    --gris: #8a8a8d;
+    --success: #357a38;
+    --error: #f44336;
+    --warn: #b26a00;
+    --darker-color: rgba(0, 0, 0, 0.3);
+    --lighter-color: rgba(255, 255, 255, 0.3);
+    --border-radius: 9px;
+    --box-shadow: 0 2px 5px 1px rgb(64 60 67 / 73%);
+    --transition-time: .25s;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(222 222 222);
+}
+
+main {
+    margin: 1rem
+}
+
+li {
+    padding: 1rem
+}
+
+p, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+    margin-bottom: 1rem
+}
+
+img {
+    max-height: 15rem;
+    max-width: 100%;
+    border-radius: var(--border-radius)
+}
+
+.card {
+    box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.pre {
+    white-space: pre;
+}
+
+.font-white {
+    color: white
+}
+
+.font-black {
+    color: black
+}
+
+.font-primary {
+    color: var(--primary)
+}
+
+.font-secondary {
+    color: var(--secondary)
+}

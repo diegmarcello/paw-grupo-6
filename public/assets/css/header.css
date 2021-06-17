@@ -1,0 +1,53 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary);
+    color: var(--text-primary);
+    box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+}
+
+.site-header nav {
+    width: calc(100vw - 2rem); /* resto el padding del header para no tener overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    padding: 0.5rem 0px;
+    text-align-last: center;
+}
+
+li a {
+    padding: 0.5rem 1rem
+}
+
+li a:hover {
+    background-color: var(--light-primary);
+    /* color: var(--primary) */
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 750px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
