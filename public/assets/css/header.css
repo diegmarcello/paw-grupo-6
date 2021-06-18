@@ -30,7 +30,8 @@ h1 {
 h1>a {
     white-space: pre;
     display: inline-block;
-    margin-left: 3.5rem
+    margin-left: 3.5rem;
+    text-align: left;
 }
 
 h1:before {
