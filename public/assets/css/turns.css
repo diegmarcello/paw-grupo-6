@@ -60,13 +60,14 @@ article.card:first-of-type header{
     main section {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     article.card {
         min-width: 250px;
+        flex-grow: 1;
         width: calc(20% - 2rem)
     }
 }
