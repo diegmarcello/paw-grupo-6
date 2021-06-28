@@ -1,5 +1,5 @@
 form {
-    margin: 1rem
+    margin: 1rem;
 }
 
 
@@ -8,6 +8,10 @@ form {
         position: fixed;
         bottom:0;
         width: calc(100vw - 2rem)
+    }
+
+    form {
+        margin-top: 5rem;
     }
     
     .login-form {

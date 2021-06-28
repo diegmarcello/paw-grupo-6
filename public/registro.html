@@ -4,18 +4,26 @@
         <title>UNLuPAW Medical Group</title>
         <meta lang='es-AR' charset="utf-8" />
         <base target="_self" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+        <link rel="icon" type="image/png" href="/assets/images/favicon.png">
         <link rel="stylesheet" type='text/css' href="/assets/css/reset.css" />
         <link rel="stylesheet" type='text/css' href="/assets/css/common.css" />
         <link rel="stylesheet" type='text/css' href="/assets/css/header.css" />
+        <link rel="stylesheet" type='text/css' href="/assets/css/footer.css" />
+        <link rel="stylesheet" type='text/css' href="/assets/css/form.css" />
+        <link rel="stylesheet" type='text/css' href="/assets/css/login-register.css" />
     </head>
     <body>
         <header class='site-header'>
             <h1>
                 <a class='font-white' class='font-white' href="/">UNLuPAW
-Medical 
+Medical
 Group</a>
             </h1>
-            <a class='font-white' href="/iniciar-sesion.html">Iniciar sesión</a>
+            <a class='button transparent' href="/iniciar-sesion.html">Iniciar sesión</a>
             <nav>
                 <!-- aca iria el icono del menu -->
                 <ul>
@@ -29,65 +37,96 @@ Group</a>
                 </ul>
             </nav>
         </header>
-        <form>
-            <fieldset>
-                <label for='nombre'>Nombre</label>
-                <input
-                    name='nombre'
-                    id='nombre'
-                    type='text'
-                    autofocus
-                    required
-                    placeholder='Juan'
-                    />
-                <label for='apellido'>Apellido</label>
-                <input
-                    name='apellido'
-                    id='apellido'
-                    type='text'
-                    required
-                    placeholder='Perez'
-                    />
-            </fieldset>
-            <fieldset>
-                <label for='documento'>Documento</label>
-                <input
-                    name='documento'
-                    id='documento'
-                    type='text'
-                    required
-                    placeholder='38000000'
-                    />
-                <label for='email'>Email</label>
-                <input
-                    name='email'
-                    id='email'
-                    type='email'
-                    required
-                    placeholder='nombre@ejemplo.com'
-                    />
-            </fieldset>
-            <fieldset>
-                <label for='password'>Contraseña</label>
-                <input
-                    name='password'
-                    id='password'
-                    type='password'
-                    required
-                    placeholder='********'
-                    />
-                <label for='password2'>Contraseña</label>
-                <input
-                    name='password2'
-                    id='password2'
-                    type='password'
-                    required
-                    placeholder='********'
-                    />
-            </fieldset>
-
-            <a href='/'>Volver a inicio</a>
-            <input type='submit' value='Crear cuenta' />
-        </form>
-    </body>
-</html>
+        <main>
+            <form>
+                <header>
+                    <h2>Registro</h2>
+                </header>
+                <fieldset>
+                    <label for='nombre'>Nombre
+                    <input
+                        name='nombre'
+                        id='nombre'
+                        type='text'
+                        autofocus
+                        required
+                        placeholder='Juan'
+                        /></label>
+                    <label for='apellido'>Apellido
+                    <input
+                        name='apellido'
+                        id='apellido'
+                        type='text'
+                        required
+                        placeholder='Perez'
+                        /></label>
+                </fieldset>
+                <fieldset>
+                    <label for='documento'>Documento
+                    <input
+                        name='documento'
+                        id='documento'
+                        type='text'
+                        required
+                        placeholder='38000000'
+                        /></label>
+                    <label for='email'>Email
+                    <input
+                        name='email'
+                        id='email'
+                        type='email'
+                        required
+                        placeholder='nombre@ejemplo.com'
+                        /></label>
+                </fieldset>
+                <fieldset>
+                    <label for='password'>Contraseña
+                    <input
+                        name='password'
+                        id='password'
+                        type='password'
+                        required
+                        placeholder='********'
+                        /></label>
+                    <label for='password2'>Contraseña
+                    <input
+                        name='password2'
+                        id='password2'
+                        type='password'
+                        required
+                        placeholder='********'
+                        /></label>
+                </fieldset>
+                <a class='button transparent' href='/'>Volver a inicio</a>
+                <input class='button' type='submit' value='Crear cuenta' />
+            </form>
+        </main>
+        <footer class='site-footer'>
+            <section>
+                <!-- imagen del QR con los derechos y bla bla -->
+                <img src='/assets/images/qr.png' alt='qr legales del
+                    sitio'/>
+                <small>
+                    Todos los derechos reservados<br/>
+                        Terminos y condiciones
+                    </small>
+                    <address>
+                        Av. J M. Torres 1500 - Pilar - Buenos Aires
+                    </address>
+                </section>
+                <section>
+                    <ul class='horizontal'>
+                        <li><a class='font-white'
+                                href="https://www.facebook.com"><i
+                                    class='gg-facebook'></i></a></li>
+                        <li><a class='font-white'
+                                href="https://www.instagram.com"><i
+                                    class='gg-instagram'></i></a></li>
+                        <li><a class='font-white'
+                                href="https://www.twitter.com"><i
+                                    class='gg-twitter'></i></a></li>
+                    </ul>
+                </section>
+            </footer>
+        </body>
+    </html>
