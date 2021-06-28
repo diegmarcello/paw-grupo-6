@@ -107,7 +107,8 @@ img {
 }
 
 .button:hover {
-    opacity: 0.85
+    opacity: 0.85;
+    cursor: pointer;
 }
 
 .secondary {
@@ -116,6 +117,11 @@ img {
 
 .light-primary {
     background-color: var(--light-primary);
+}
+
+.transparent {
+    color: inherit;
+    background-color: transparent;
 }
 
 .telefonos {

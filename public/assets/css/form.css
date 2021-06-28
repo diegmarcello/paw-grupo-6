@@ -21,6 +21,7 @@ input {
     margin-bottom: 1rem;
     border: 1px solid var(--gris);
     padding-left: 1rem;
+    padding-right: 1rem;
     border-radius: var(--border-radius);
     height: 2rem;
 }

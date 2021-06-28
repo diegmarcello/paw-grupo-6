@@ -1,0 +1,24 @@
+form {
+    margin: 1rem
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width: calc(100vw - 2rem)
+}
+
+@media (min-width: 750px) {
+    .login-form {
+        max-width: 40vw;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: stretch;
+    }
+
+    .login-form label {
+        width: 100%
+    }
+}
