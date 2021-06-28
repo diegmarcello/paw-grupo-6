@@ -103,7 +103,8 @@ img {
     background-color: var(--primary);
     color: var(--text-primary);
     padding: 0.5rem 1.5rem;
-    border-radius: var(--border-radius)
+    border-radius: var(--border-radius);
+    border: none;
 }
 
 .button:hover {
@@ -122,6 +123,11 @@ img {
 .transparent {
     color: inherit;
     background-color: transparent;
+    border: 1px solid transparent
+}
+
+.transparent:hover {
+    border: 1px solid var(--gris)
 }
 
 .telefonos {

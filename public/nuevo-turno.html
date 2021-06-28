@@ -39,80 +39,80 @@ Group</a>
             </nav>
         </header>
         <main>
-            <header>
-                <h2>Nuevo turno</h2>
-            </header>
             <form>
+                <header>
+                    <h2>Nuevo turno</h2>
+                </header>
                 <fieldset>
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre">Nombre
                     <input
                         autofocus
                         required
                         type="text"
                         id='nombre'
                         name='nombre'
-                        placeholder='Juan Manuel'>
-                    <label for="apellido">Apellido</label>
+                        placeholder='Juan Manuel'></label>
+                    <label for="apellido">Apellido
                     <input
                         required
                         type="text"
                         id='apellido'
                         name='apellido'
-                        placeholder='Pérez'>
+                        placeholder='Pérez'></label>
                 </fieldset>
                 <fieldset>
-                    <label for="email">Email</label>
+                    <label for="email">Email
                     <input
                         required
                         type="email"
                         id='email'
                         name='email'
-                        placeholder='ejemplo@mail.com'>
-                    <label for="telefono">Teléfono celular</label>
+                        placeholder='ejemplo@mail.com'></label>
+                    <label for="telefono">Teléfono celular
                     <input
                         required
                         type="tel"
                         id='telefono'
                         name='telefono'
-                        placeholder='+54 9 2323 536699'>
+                        placeholder='+54 9 2323 536699'></label>
                 </fieldset>
                 <fieldset>
-                    <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                    <label for="fecha_nacimiento">Fecha de nacimiento
                     <input
                         required
                         type="date"
                         id='fecha_nacimiento'
                         name='fecha_nacimiento'
-                        />
-                    <label for="edad">Edad</label>
+                        /></label>
+                    <label for="edad">Edad
                     <input
                         required
                         type="number"
                         id='edad'
                         name='edad'
-                        placeholder='25'>
+                        placeholder='25'></label>
                 </fieldset>
                 <fieldset>
-                    <label for="Fecha_turno">Fecha del turno</label>
+                    <label for="Fecha_turno">Fecha del turno
                     <input
                         required
                         type="date"
                         id='Fecha_turno'
                         name='Fecha_turno'
-                        />
-                    <label for="hora_turno">Hora del turno</label>
+                        /></label>
+                    <label for="hora_turno">Hora del turno
                     <input
                         required
                         type="time"
                         id='hora_turno'
                         name='hora_turno'
-                        />
+                        /></label>
                 </fieldset>
-                <input type="reset" value='Limpiar'>
-                <input type="submit" value='Solicitar'>
+                <input class='button transparent' type="reset" value='Limpiar'>
+                <input class='button' type="submit" value='Solicitar'>
+                <p>Todos los campos son obligatorios</p>
             </form>
             <footer>
-                <p>Todos los campos son obligatorios</p>
             </footer>
         </main>
         <footer class='site-footer'>
